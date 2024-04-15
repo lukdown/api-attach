@@ -55,6 +55,6 @@ jobs:
             sudo docker rm attach || true
             sudo docker run -d \
               --name attach \
-              -p 9000:9000 \
+              -p 9001:9001 \
               -v /home/ec2-user/upload:/app/upload \
               lukdown10/attach:latest
